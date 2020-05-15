@@ -1,0 +1,11 @@
+#deleting different dictionary elements 
+
+myDict1={"docter":"Anandigopal","teacher":"savitribhai","president":"rajendraprasad","astronaut":"kalpanachawla"}
+mydict2={"c":"parenthesis","python":"indentation","c++":"parenthesis"}
+del myDict1["president"]
+del myDict1["docter"]
+print(myDict1)
+del mydict2["c"]
+print(mydict2)
+del mydict2["c++"]
+print(mydict2)
